@@ -1,0 +1,21 @@
+{
+	"name": "worders-ai-test",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.39.0"
+	},
+	"dependencies": {
+		"@cloudflare/ai": "^1.2.2",
+		"base64-js": "^1.5.1",
+		"mustache": "^4.2.0"
+	}
+}
